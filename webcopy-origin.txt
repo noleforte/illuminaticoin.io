@@ -1,0 +1,68 @@
+Uri: https://illuminaticoin.io/
+File Name: C:\Downloaded Web Sites\illuminaticoin.io\index.htm
+Content Type: text/html
+
+Uri: https://illuminaticoin.io/assets/css/app.css
+File Name: C:\Downloaded Web Sites\illuminaticoin.io\assets\css\app.css
+Content Type: text/css
+
+Uri: https://illuminaticoin.io/assets/fonts/inter/Inter-roman.var.woff2?v=3.19
+File Name: C:\Downloaded Web Sites\illuminaticoin.io\assets\fonts\inter\Inter-roman.var.woff2
+Content Type: font/woff2
+
+Uri: https://illuminaticoin.io/assets/fonts/tilting/Titling-Gothic-FB-Wide-Bold.woff2
+File Name: C:\Downloaded Web Sites\illuminaticoin.io\assets\fonts\tilting\Titling-Gothic-FB-Wide-Bold.woff2
+Content Type: font/woff2
+
+Uri: https://illuminaticoin.io/assets/img/favicon.ico?v=1
+File Name: C:\Downloaded Web Sites\illuminaticoin.io\assets\img\favicon.ico
+Content Type: image/vnd.microsoft.icon
+
+Uri: https://illuminaticoin.io/assets/img/harry_hedwig.svg
+File Name: C:\Downloaded Web Sites\illuminaticoin.io\assets\img\harry_hedwig.svg
+Content Type: image/svg+xml
+
+Uri: https://illuminaticoin.io/assets/img/motif.webp
+File Name: C:\Downloaded Web Sites\illuminaticoin.io\assets\img\motif.webp
+Content Type: image/webp
+
+Uri: https://illuminaticoin.io/assets/img/naticoin-bg-about.webp
+File Name: C:\Downloaded Web Sites\illuminaticoin.io\assets\img\naticoin-bg-about.webp
+Content Type: image/webp
+
+Uri: https://illuminaticoin.io/assets/img/naticoin-bg-hero.webp
+File Name: C:\Downloaded Web Sites\illuminaticoin.io\assets\img\naticoin-bg-hero.webp
+Content Type: image/webp
+
+Uri: https://illuminaticoin.io/assets/img/naticoin-bg-how-buy.webp
+File Name: C:\Downloaded Web Sites\illuminaticoin.io\assets\img\naticoin-bg-how-buy.webp
+Content Type: image/webp
+
+Uri: https://illuminaticoin.io/assets/img/naticoin-bg-roadmap.webp
+File Name: C:\Downloaded Web Sites\illuminaticoin.io\assets\img\naticoin-bg-roadmap.webp
+Content Type: image/webp
+
+Uri: https://illuminaticoin.io/assets/img/naticoin-bg-tokenomic.webp
+File Name: C:\Downloaded Web Sites\illuminaticoin.io\assets\img\naticoin-bg-tokenomic.webp
+Content Type: image/webp
+
+Uri: https://illuminaticoin.io/assets/img/sprites.svg
+File Name: C:\Downloaded Web Sites\illuminaticoin.io\assets\img\sprites.svg
+Content Type: image/svg+xml
+
+Uri: https://illuminaticoin.io/assets/img/triangle-about.svg
+File Name: C:\Downloaded Web Sites\illuminaticoin.io\assets\img\triangle-about.svg
+Content Type: image/svg+xml
+
+Uri: https://illuminaticoin.io/assets/img/triangle-road.svg
+File Name: C:\Downloaded Web Sites\illuminaticoin.io\assets\img\triangle-road.svg
+Content Type: image/svg+xml
+
+Uri: https://illuminaticoin.io/assets/js/app.js
+File Name: C:\Downloaded Web Sites\illuminaticoin.io\assets\js\app.js
+Content Type: application/javascript
+
+Uri: https://illuminaticoin.io/assets/js/vendor.js
+File Name: C:\Downloaded Web Sites\illuminaticoin.io\assets\js\vendor.js
+Content Type: application/javascript
+
