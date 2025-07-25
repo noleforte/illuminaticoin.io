@@ -670,7 +670,7 @@ html, body {
 }
 
 .hero-bg {
-  background-image: url(../img/naticoin-bg-hero.webp);
+  background-image: url(../img/naticoin-bg-hero.png);
 }
 
 .hero-heading {
@@ -893,7 +893,7 @@ html, body {
 }
 
 .about-bg {
-  background-image: url(../img/naticoin-bg-about.webp);
+  background-image: url(../img/naticoin-bg-about.png);
 }
 
 .about .content {
@@ -995,7 +995,7 @@ html, body {
 }
 
 .how-bg {
-  background-image: url(../img/naticoin-bg-how-buy.webp);
+  background-image: url(../img/naticoin-bg-how-buy.png);
 }
 
 .how-right article > *:not(.swaper-content) {
@@ -1181,7 +1181,7 @@ html, body {
 }
 
 .token-bg {
-  background-image: url(../img/naticoin-bg-tokenomic.webp);
+  background-image: url(../img/naticoin-bg-tokenomic.png);
   opacity: .3;
 }
 
@@ -1204,7 +1204,7 @@ html, body {
 }
 
 .road-bg {
-  background-image: url(../img/naticoin-bg-roadmap.webp);
+  background-image: url(../img/naticoin-bg-roadmap.png);
   opacity: .3;
 }
 
