@@ -838,6 +838,22 @@ html, body {
 .icon-triangle.verus use:last-of-type {
   transform: scale(.8) translate(2%, 2%);
 }
+
+.icon-triangle.twitter use:last-of-type {
+  transform: scale(0.4) translate(28px, 24px);
+}
+
+.icon-triangle.telegram use:last-of-type {
+  transform: scale(0.4) translate(28px, 24px);
+}
+
+.icon-triangle.dextools use:last-of-type {
+  transform: scale(0.4) translate(28px, 24px);
+}
+
+.icon-triangle.dexscreener use:last-of-type {
+  transform: scale(0.15) translate(40px, 20px);
+}
 /* Line hr */
 
 .line-hr {
