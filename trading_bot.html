@@ -61,6 +61,13 @@
             }
         }
 
+        /* Скрытие " to Main" на мобильных устройствах */
+        @media (max-width: 768px) {
+            .to-main-text {
+                display: none;
+            }
+        }
+
         .container {
             display: flex;
             height: 100vh;
@@ -963,7 +970,7 @@
         <div class="header-left">
             <a href="index.htm" class="back-btn">
                 <i class="fas fa-arrow-left"></i>
-                <span>Back to Main</span>
+                <span class="back-to-main">Back<span class="to-main-text"> to Main</span></span>
             </a>
         </div>
 
