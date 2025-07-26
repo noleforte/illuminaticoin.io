@@ -106,15 +106,31 @@
         
         @media screen and (max-width: 1000px) {
             .left-section {
+                position: relative;
+                top: auto;
+                left: auto;
+                width: 100%;
                 grid-template-columns: repeat(2, 1fr);
                 grid-template-rows: repeat(4, 1fr);
-                grid-gap: 1.5rem;
-                padding: 1.5rem;
+                grid-gap: 2rem;
+                transform: none;
+                max-width: none;
+                min-width: auto;
+                padding: 2rem;
+                margin-top: 4rem;
+            }
+            .center-heading {
+                top: 20%;
+                z-index: 30;
             }
             .center-heading h1 {
                 font-size: 1.4rem;
                 white-space: normal;
                 padding: 0 1rem;
+            }
+            .banner {
+                top: 5%;
+                z-index: 20;
             }
             .banner h1 {
                 font-size: 2rem;
@@ -124,6 +140,28 @@
             }
             .ticker-content {
                 font-size: 4rem;
+            }
+            .description {
+                position: relative;
+                bottom: auto;
+                right: auto;
+                text-align: center;
+                margin: 2rem 0;
+                padding: 0 1rem;
+            }
+            .social-links {
+                position: relative;
+                bottom: auto;
+                right: auto;
+                justify-content: center;
+                margin: 2rem 0;
+                visibility: visible;
+            }
+            .bottom-heading {
+                position: relative;
+                bottom: auto;
+                margin-top: 2rem;
+                z-index: 25;
             }
         }
         
@@ -147,6 +185,10 @@
         }
         
         @media screen and (max-width: 650px) {
+            .center-heading {
+                top: 15%;
+                z-index: 30;
+            }
             .center-heading h1 {
                 font-size: 1rem;
                 padding: 0 0.5rem;
@@ -165,6 +207,7 @@
                 grid-template-rows: repeat(8, 1fr);
                 grid-gap: 1rem;
                 padding: 1rem;
+                margin-top: 3rem;
             }
             .feature-card {
                 padding: 0.8rem;
@@ -226,11 +269,10 @@
         }
 
         .container {
-            display: block;
-            min-height: 100vh;
-            width: 100%;
+            display: flex;
+            height: 100vh;
+            width: 100vw;
             margin-top: 110px;
-            padding: 2rem 0;
         }
 
         /* Центральная надпись */
@@ -1310,17 +1352,20 @@
                 </div>
             </div>
 
+
+                          <!-- Баннерная надпись -->
+              <div class="banner">
+                  <h1>TRADE FASTER WITH THE LEADING</h1>
+                  <h2>TELEGRAM TRADING BOT OF SOLANA</h2>
+                  <div class="banner-description">
+                      <p>Trade seamlessly and securely with Illuminati Trading Bot on Solana. Our bot was Built from the ground up for outperform and overdeliver so you never miss a move.</p>
+                  </div>
+              </div>
+
             <!-- Изображение телефона -->
 
 
         </div>
-
-        <!-- Описание -->
-        <div class="description">
-            <p>Experience the future of trading with our advanced Telegram bot designed specifically for Solana. Get instant access to the fastest and most reliable trading tools in the market.</p>
-        </div>
-
-
     </div>
 
     <!-- Нижняя надпись -->
