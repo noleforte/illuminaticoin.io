@@ -794,6 +794,10 @@ html, body {
   top: .05em;
 }
 
+.contract-address {
+  word-break: break-all;
+  overflow-wrap: anywhere;
+}
 
 
 /* Icon triangle */
