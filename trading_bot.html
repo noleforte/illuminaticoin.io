@@ -106,30 +106,15 @@
         
         @media screen and (max-width: 1000px) {
             .left-section {
-                position: relative;
-                top: auto;
-                left: auto;
-                width: 100%;
                 grid-template-columns: repeat(2, 1fr);
                 grid-template-rows: repeat(4, 1fr);
-                grid-gap: 2rem;
-                transform: none;
-                max-width: none;
-                min-width: auto;
-                padding: 2rem;
-                margin-top: 2rem;
-            }
-            .center-heading {
-                top: 30%;
-                z-index: 20;
+                grid-gap: 1.5rem;
+                padding: 1.5rem;
             }
             .center-heading h1 {
                 font-size: 1.4rem;
                 white-space: normal;
                 padding: 0 1rem;
-            }
-            .banner {
-                top: 8%;
             }
             .banner h1 {
                 font-size: 2rem;
@@ -139,22 +124,6 @@
             }
             .ticker-content {
                 font-size: 4rem;
-            }
-            .description {
-                position: relative;
-                bottom: auto;
-                right: auto;
-                text-align: center;
-                margin: 2rem 0;
-                padding: 0 1rem;
-            }
-            .social-links {
-                position: relative;
-                bottom: auto;
-                right: auto;
-                justify-content: center;
-                margin: 2rem 0;
-                visibility: visible;
             }
         }
         
@@ -178,9 +147,6 @@
         }
         
         @media screen and (max-width: 650px) {
-            .center-heading {
-                top: 25%;
-            }
             .center-heading h1 {
                 font-size: 1rem;
                 padding: 0 0.5rem;
@@ -199,7 +165,6 @@
                 grid-template-rows: repeat(8, 1fr);
                 grid-gap: 1rem;
                 padding: 1rem;
-                margin-top: 1rem;
             }
             .feature-card {
                 padding: 0.8rem;
@@ -261,20 +226,22 @@
         }
 
         .container {
-            display: flex;
-            height: 100vh;
-            width: 100vw;
+            display: block;
+            min-height: 100vh;
+            width: 100%;
             margin-top: 110px;
+            padding: 2rem 0;
         }
 
         /* Центральная надпись */
         .center-heading {
-    position: fixed;
-    top: 57%;
-    left: 54%;
-    transform: translateX(-50%);
+    position: relative;
+    top: auto;
+    left: auto;
+    transform: none;
     text-align: center;
-    z-index: 20;
+    z-index: 30;
+    margin: 4rem 0 2rem 0;
 }
 
         .center-heading h1 {
@@ -290,12 +257,13 @@
 
         /* Нижняя надпись */
         .bottom-heading {
-            position: fixed;
-            bottom: 5%;
-            left: 50%;
-            transform: translateX(-50%);
+            position: relative;
+            bottom: auto;
+            left: auto;
+            transform: none;
             text-align: center;
-            z-index: 5;
+            z-index: 25;
+            margin: 3rem 0;
         }
 
         .bottom-heading h2 {
@@ -312,20 +280,21 @@
 
         /* Левая часть */
         .left-section {
-            position: fixed;
-            top: 59%;
-            left: 14%;
-            width: 50%;
+            position: relative;
+            top: auto;
+            left: auto;
+            width: 100%;
             height: auto;
-            padding: 0rem;
+            padding: 2rem;
             display: grid;
             grid-template-columns: repeat(4, 1fr);
             grid-template-rows: repeat(2, 1fr);
-            grid-gap: 13rem;
-            transform: translateY(-50%);
-            max-width: 873px;
-            min-width: 1662px;
+            grid-gap: 2rem;
+            transform: none;
+            max-width: 1200px;
+            min-width: auto;
             z-index: 10;
+            margin: 0 auto;
         }
 
         .feature-card {
@@ -439,13 +408,14 @@
 
         /* Баннерная надпись */
         .banner {
-            position: fixed;
-            top: 12%;
-            left: 2%;
+            position: relative;
+            top: auto;
+            left: auto;
             text-align: center;
             animation: fadeInUp 1s ease;
             width: 100%;
             z-index: 15;
+            margin: 2rem 0;
         }
 
         .banner h1 {
@@ -513,11 +483,15 @@
 
         /* Описание */
         .description {
-            position: fixed;
-            bottom: 37%;
-            right: 22rem;
-            text-align: right;
+            position: relative;
+            bottom: auto;
+            right: auto;
+            text-align: center;
             animation: fadeInRight 1s ease 0.5s both;
+            margin: 2rem 0;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
         }
 
         .description p {
@@ -542,15 +516,17 @@
 
         /* Социальные ссылки */
         .social-links {
-            position: fixed;
-            bottom: 9%;
-            right: 10rem;
+            position: relative;
+            bottom: auto;
+            right: auto;
             display: flex;
             flex-direction: row;
-            align-items: flex-end;
+            align-items: center;
+            justify-content: center;
             gap: 1rem;
             animation: fadeInRight 1s ease 1s both;
-            visibility: hidden;
+            visibility: visible;
+            margin: 2rem 0;
         }
         
         @media screen and (max-width: 1000px) {
@@ -1242,6 +1218,15 @@
     </header>
 
     <div class="container">
+        <!-- Баннерная надпись -->
+        <div class="banner">
+            <h1>TRADE FASTER WITH THE LEADING</h1>
+            <h2>TELEGRAM TRADING BOT OF SOLANA</h2>
+            <div class="banner-description">
+                <p>Trade seamlessly and securely with Illuminati Trading Bot on Solana. Our bot was Built from the ground up for outperform and overdeliver so you never miss a move.</p>
+            </div>
+        </div>
+
         <!-- Центральная надпись -->
         <div class="center-heading">
             <h1>Everything you need to trade, and more</h1>
@@ -1325,46 +1310,17 @@
                 </div>
             </div>
 
-
-                          <!-- Баннерная надпись -->
-              <div class="banner">
-                  <h1>TRADE FASTER WITH THE LEADING</h1>
-                  <h2>TELEGRAM TRADING BOT OF SOLANA</h2>
-                  <div class="banner-description">
-                      <p>Trade seamlessly and securely with Illuminati Trading Bot on Solana. Our bot was Built from the ground up for outperform and overdeliver so you never miss a move.</p>
-                  </div>
-              </div>
-
             <!-- Изображение телефона -->
 
-            <!-- Социальные ссылки -->
-            <div class="social-links">
-                <a href="#" class="social-link">
-                    <svg viewBox="0 0 39 39" width="20" height="20">
-                        <use href="assets/img/sprites.svg#twitter-x"></use>
-                    </svg>
-                    <span>Twitter X</span>
-                </a>
-                <a href="#" class="social-link">
-                    <svg viewBox="0 0 39 39" width="20" height="20">
-                        <use href="assets/img/sprites.svg#telegram"></use>
-                    </svg>
-                    <span>Telegram</span>
-                </a>
-                <a href="#" class="social-link">
-                    <svg viewBox="0 0 39 39" width="20" height="20">
-                        <use href="assets/img/sprites.svg#dextools"></use>
-                    </svg>
-                    <span>Dextools</span>
-                </a>
-                <a href="#" class="social-link">
-                    <svg viewBox="0 0 39 39" width="20" height="20">
-                        <use href="assets/img/dex-screener-seeklogo.svg"></use>
-                    </svg>
-                    <span>Dexscreener</span>
-                </a>
-            </div>
+
         </div>
+
+        <!-- Описание -->
+        <div class="description">
+            <p>Experience the future of trading with our advanced Telegram bot designed specifically for Solana. Get instant access to the fastest and most reliable trading tools in the market.</p>
+        </div>
+
+
     </div>
 
     <!-- Нижняя надпись -->
