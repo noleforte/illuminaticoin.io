@@ -116,6 +116,11 @@
                 white-space: normal;
                 padding: 0 1rem;
             }
+            .middle-heading h2 {
+                font-size: 1.8rem;
+                white-space: normal;
+                padding: 0 1rem;
+            }
             .banner h1 {
                 font-size: 2rem;
             }
@@ -149,6 +154,11 @@
         @media screen and (max-width: 650px) {
             .center-heading h1 {
                 font-size: 1rem;
+                padding: 0 0.5rem;
+            }
+            .middle-heading h2 {
+                font-size: 1.2rem;
+                white-space: normal;
                 padding: 0 0.5rem;
             }
             .banner h1 {
@@ -255,6 +265,25 @@
             white-space: nowrap;
         }
 
+        /* Промежуточный заголовок */
+        .middle-heading {
+            text-align: center;
+            margin: 4rem 0;
+            z-index: 30;
+        }
+
+        .middle-heading h2 {
+            font-size: 2.5rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            line-height: 1.2;
+            margin-bottom: 0;
+            font-family: var(--font-family-heading);
+            white-space: nowrap;
+            color: #ffffff;
+        }
+
         /* Нижняя надпись */
         .bottom-heading {
             position: relative;
@@ -289,9 +318,9 @@
             display: grid;
             grid-template-columns: repeat(4, 1fr);
             grid-template-rows: repeat(2, 1fr);
-            grid-gap: 2rem;
+            grid-gap: 4rem;
             transform: none;
-            max-width: 1200px;
+            max-width: 1400px;
             min-width: auto;
             z-index: 10;
             margin: 0 auto;
@@ -1298,7 +1327,11 @@
                 </div>
             </div>
 
+        </div>
 
+        <!-- Промежуточный заголовок -->
+        <div class="middle-heading">
+            <h2>Everything you need to trade, and more</h2>
         </div>
 
         <!-- Правая часть -->
