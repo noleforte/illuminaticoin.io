@@ -169,7 +169,20 @@
                         </svg>
                     </div>
                     <a rel="noopener noreferrer" target="_blank" onclick="copyContractAddress(event)"><small>Contract address: </small><span id="contract-address" class="contract-address">4SHEZCr1desjeP14TMGdUxhLX8XG6CFDZBAGRFtUpump</span></a>
-                    <span id="copy-notice" style="display:none; color:#8fff8f; font-size:16px; font-weight:bold; margin-left:10px; vertical-align:middle;">Copied to clipboard</span>
+
+<div id="copy-popup" style="display:none;position:fixed;top:50%;left:50%;transform:translate(-50%,-50%);background:rgba(0,0,0,0.85);color:#8fff8f;padding:18px 32px;border-radius:12px;font-size:20px;font-weight:bold;z-index:9999;box-shadow:0 4px 24px #000a;">Copied to clipboard</div>
+
+<script>
+function copyContractAddress(e) {
+  e.preventDefault();
+  var addr = document.getElementById('contract-address').innerText;
+  navigator.clipboard.writeText(addr).then(function() {
+    var popup = document.getElementById('copy-popup');
+    popup.style.display = 'block';
+    setTimeout(function() { popup.style.display = 'none'; }, 1500);
+  });
+}
+</script>
 
                     <div class="line-hr line-hr-right">
                         <svg viewbox="0 0 11.32 6.14">
